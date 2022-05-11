@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[admin]]>
+    </line>
+    <line>
+      <![CDATA[manager]]>
+    </line>
+    <line>
+      <![CDATA[bhanu]]>
+    </line>
+    <line>
+      <![CDATA[abcd]]>
+    </line>
+    <line>
+      <![CDATA[akshara]]>
+    </line>
+    <line>
+      <![CDATA[xyz]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[A1]]>
+    </line>
+    <line>
+      <![CDATA[B1]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[A2]]>
+    </line>
+    <line>
+      <![CDATA[B2]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[A3]]>
+    </line>
+    <line>
+      <![CDATA[B3]]>
+    </line>
+    <line>
+      <![CDATA[A2]]>
+    </line>
+    <line>
+      <![CDATA[B2]]>
+    </line>
+    <line>
+      <![CDATA[A3]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[C3]]>
+    </line>
+    <line>
+      <![CDATA[A4]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-10T08:36:34 IST" name="Suite" finished-at="2022-05-10T08:37:14 IST" duration-ms="39990">
+    <groups>
+      <group name="smoke">
+        <method signature="Demo1.test1()[pri:1, instance:script.Demo1@5824a83d]" name="test1" class="script.Demo1"/>
+        <method signature="Demo2.test2([Ljava.lang.String;)[pri:2, instance:script.Demo2@45099dd3]" name="test2" class="script.Demo2"/>
+        <method signature="Demo3.test3([Ljava.lang.String;)[pri:3, instance:script.Demo3@13e344d]" name="test3" class="script.Demo3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-05-10T08:36:34 IST" name="Test1" finished-at="2022-05-10T08:37:14 IST" duration-ms="39990">
+      <class name="script.Demo4">
+        <test-method signature="test_report()[pri:0, instance:script.Demo4@1ffaf86]" started-at="2022-05-10T08:36:34 IST" name="test_report" finished-at="2022-05-10T08:36:35 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_report -->
+      </class> <!-- script.Demo4 -->
+      <class name="script.Demo3">
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:36:59 IST" name="createTest" finished-at="2022-05-10T08:36:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo3.test3(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:36:59 IST" name="openApp" finished-at="2022-05-10T08:37:04 IST" duration-ms="4195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test3([Ljava.lang.String;)[pri:3, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:04 IST" name="test3" data-provider="getData" finished-at="2022-05-10T08:37:04 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3ade9461]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[A2]]>
+            </line>
+            <line>
+              <![CDATA[B2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:04 IST" name="closeApp" finished-at="2022-05-10T08:37:04 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:04 IST" name="createTest" finished-at="2022-05-10T08:37:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo3.test3(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:04 IST" name="openApp" finished-at="2022-05-10T08:37:09 IST" duration-ms="4269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test3([Ljava.lang.String;)[pri:3, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:09 IST" name="test3" data-provider="getData" finished-at="2022-05-10T08:37:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4dde7ad7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[A3]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[C3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:09 IST" name="closeApp" finished-at="2022-05-10T08:37:09 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:09 IST" name="createTest" finished-at="2022-05-10T08:37:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo3.test3(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:09 IST" name="openApp" finished-at="2022-05-10T08:37:13 IST" duration-ms="4234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test3([Ljava.lang.String;)[pri:3, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:13 IST" name="test3" data-provider="getData" finished-at="2022-05-10T08:37:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@ca69fe8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[A4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo3@13e344d]" started-at="2022-05-10T08:37:14 IST" name="closeApp" finished-at="2022-05-10T08:37:14 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.Demo3 -->
+      <class name="script.Demo2">
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:45 IST" name="createTest" finished-at="2022-05-10T08:36:45 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo2.test2(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:45 IST" name="openApp" finished-at="2022-05-10T08:36:49 IST" duration-ms="4284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test2([Ljava.lang.String;)[pri:2, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:49 IST" name="test2" data-provider="getData" finished-at="2022-05-10T08:36:49 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@57871ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[A1]]>
+            </line>
+            <line>
+              <![CDATA[B1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:49 IST" name="closeApp" finished-at="2022-05-10T08:36:50 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:50 IST" name="createTest" finished-at="2022-05-10T08:36:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo2.test2(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:50 IST" name="openApp" finished-at="2022-05-10T08:36:54 IST" duration-ms="4281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test2([Ljava.lang.String;)[pri:2, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:54 IST" name="test2" data-provider="getData" finished-at="2022-05-10T08:36:54 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4a964997]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[A2]]>
+            </line>
+            <line>
+              <![CDATA[B2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:54 IST" name="closeApp" finished-at="2022-05-10T08:36:55 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:55 IST" name="createTest" finished-at="2022-05-10T08:36:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo2.test2(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:55 IST" name="openApp" finished-at="2022-05-10T08:36:59 IST" duration-ms="3834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test2([Ljava.lang.String;)[pri:2, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:59 IST" name="test2" data-provider="getData" finished-at="2022-05-10T08:36:59 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@329053af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[A3]]>
+            </line>
+            <line>
+              <![CDATA[B3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo2@45099dd3]" started-at="2022-05-10T08:36:59 IST" name="closeApp" finished-at="2022-05-10T08:36:59 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.Demo2 -->
+      <class name="script.Demo1">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:script.Demo1@5824a83d]" started-at="2022-05-10T08:36:34 IST" name="initReport" finished-at="2022-05-10T08:36:34 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:script.Demo1@5824a83d]" started-at="2022-05-10T08:36:35 IST" name="createTest" finished-at="2022-05-10T08:36:35 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.Demo1.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:script.Demo1@5824a83d]" started-at="2022-05-10T08:36:35 IST" name="openApp" finished-at="2022-05-10T08:36:43 IST" duration-ms="7652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test1()[pri:1, instance:script.Demo1@5824a83d]" started-at="2022-05-10T08:36:43 IST" name="test1" finished-at="2022-05-10T08:36:44 IST" duration-ms="1317" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[admin]]>
+            </line>
+            <line>
+              <![CDATA[manager]]>
+            </line>
+            <line>
+              <![CDATA[bhanu]]>
+            </line>
+            <line>
+              <![CDATA[abcd]]>
+            </line>
+            <line>
+              <![CDATA[akshara]]>
+            </line>
+            <line>
+              <![CDATA[xyz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Demo1@5824a83d]" started-at="2022-05-10T08:36:44 IST" name="closeApp" finished-at="2022-05-10T08:36:45 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.Demo1@5824a83d]" started-at="2022-05-10T08:37:14 IST" name="publishReport" finished-at="2022-05-10T08:37:14 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- script.Demo1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
